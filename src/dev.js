@@ -11,6 +11,6 @@ Vue.config.devtools = true
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<div><vue-backdrop>Hello</vue-backdrop></div>',
+  template: '<div><vue-backdrop :visible="true" /></div>',
   components: { VueBackdrop }
 })

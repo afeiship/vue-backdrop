@@ -3,6 +3,7 @@
     :style="{
       position:position,
       'z-index':zIndex,
+      'background-color':bgColor,
       opacity:opacity
     }"
    :class="['vue-backdrop',cssClass]"
@@ -16,7 +17,14 @@
     name: 'vue-backdrop',
     props:{
       cssClass:String,
-      visible:Boolean,
+      bgColor:{
+        type:String,
+        default:'#000'
+      },
+      visible:{
+        type:Boolean,
+        default:false
+      },
       zIndex:{
         type:Number,
         default:1
@@ -26,8 +34,8 @@
         default:'fixed'
       },
       opacity:{
-        type:String,
-        default:'0.9'
+        type:Number,
+        default:0.6
       }
     }
   };
