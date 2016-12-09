@@ -8,7 +8,7 @@
 + https://yarnpkg.com/en/docs/install
 
 
-## options:
+## props:
 | name | type | value | description |
 | :----| :----| :----| :----|
 | visible  | Boolean | true/false | v-show |
