@@ -10,7 +10,7 @@
 
 ## options:
 | name | type | value | description |
-| :------------- | :------------- |
+| :----| :----| :----| :----|
 | visible  | Boolean | true/false | v-show |
 | cssClass  | String | any | none |
 | bgColor  | String | #000/#FFF | default background-color |
