@@ -13,7 +13,7 @@
 | :----| :----| :----| :----|
 | visible  | Boolean | true/false | v-show |
 | cssClass  | String | any | none |
-| bgColor  | String | #000/#FFF | default background-color |
+| backgroundColor  | String | #000/#FFF | default background-color |
 | zIndex  | Number | 1/2/100 | z-index |
 | opacity  | Number | 0.1-1 | opacity |
 | position  | String | 'absolute/fixed' | css position |

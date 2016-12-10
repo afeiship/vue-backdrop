@@ -3,7 +3,7 @@
     :style="{
       position:position,
       'z-index':zIndex,
-      'background-color':bgColor,
+      'background-color':backgroundColor,
       opacity:opacity
     }"
    :class="['vue-backdrop',cssClass]"
@@ -17,7 +17,7 @@
     name: 'vue-backdrop',
     props:{
       cssClass:String,
-      bgColor:{
+      backgroundColor:{
         type:String,
         default:'#000'
       },
